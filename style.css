@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+}
+.container {
+  width: 414px;
+  margin: 0 auto;
+}
+.container .wrapper {
+  width: 100%;
+}
+.container .wrapper h1 {
+  background: #6441a4;
+  color: #fff;
+  padding: 15px 0;
+  margin: 0;
+  text-align: center;
+}
+.container .form-wrapper {
+  background: #DBDAF2;
+  text-align: center;
+}
+.container .form-wrapper input {
+  border-radius: 15px;
+  border: solid 1px #dbdbdb;
+  padding-left: 20px;
+  margin: 10px 0;
+  font-size: 1em;
+  width: 85%;
+  height: 30px;
+}
+.container .wrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.container .wrapper ul li img {
+  width: 75px;
+  border-radius: 50%;
+}
+.Online {
+  background: #99f19e;
+}
+.container .wrapper ul li:first-child {
+  border-top: solid 1px #dbdbdb;
+}
+.container .wrapper ul li {
+  padding: 10px;
+  border-right: solid 1px #dbdbdb;
+  border-left: solid 1px #dbdbdb;
+  border-bottom: solid 1px #dbdbdb;
+  background: #F8FAFF;
+}
+.container .wrapper ul li .details {
+  height: 80px;
+}
+.container .wrapper ul li .details .image {
+  width: 20%;
+  float: left;
+}
+.container .wrapper ul li .details .detail {
+  width: 80%;
+  float: left;
+  margin: 31px 0px;
+}
+.container .wrapper ul li .details .detail h4 {
+  padding-left: 13px;
+  display: inline-block;
+  margin: 0;
+  font-size: 1.4em;
+  color: #AAABD3;
+}
+.container .wrapper ul li .details .detail p {
+  color: #6441a4;
+  margin: 0;
+  display: inline-block;
+  float: right;
+  width: 20%;
+  font-size: 1.4em;
+}
+.container .wrapper ul li .details .detail .status {
+  float: right;
+}
+.container .wrapper ul li .details .detail .live {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+.container .wrapper ul li p {
+  font-size: 1em;
+  color: #353866;
+}
